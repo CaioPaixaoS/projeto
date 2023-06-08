@@ -22,7 +22,8 @@
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
-  border-radius: 100%;
+  border-radius: 9999px;
+  box-shadow: 0px 2px 8px var(--highlight-color);
 }
 
 .light #switch button {
