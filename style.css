@@ -21,9 +21,7 @@
 }
 
 #switch button:hover {
-  stroke: Solid rgba(255, 255, 255, 0.2);
-  align: Outside;
-  width: 8px;
+  outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
